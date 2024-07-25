@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de fast food</title> <!--title seria o texto que ficará na aba de navegação-->
+</head>
+<body> 
+    <h1>Pedido de Fast Food</h1>
+    <form method= "post" action="teste.jsp"> <!-- method get seria a formulário de busca e o action teste seria onde será enviado o projeto
+        e post seria não envar o que escreveu no link de acesso -->
+      Nome: <input type="text " name="nome"> <br>
+      Email: <input type="email" name="email"> <br>
+      Tamanho: 
+      <input type="radio" name="tamanho" value="g" checked> Grande
+      <input type="radio" name="tamanho" value="m"> Medio
+      <input type="radio" name="tamanho" value="p"> Pequeno
+      <br> <!--br seria quebra de linha-->
+      Pedido:<select name="tipo do hambúrguer"> <!--select name seria uma caixinha que abre para escolher-->
+        <option>Cheese-bacon</option>
+        <option>Cheese-buguer</option>
+        <option>Cheese-tudo</option>
+      </select>
+      <br>
+      Adicionais: 
+      <input type = "checkbox" name="tipo do pão" value = "sim"> Bacon
+      <input type = "checkbox" name="borda" value = "sim"> Queijo Extra <!--check box diferenet do radio permite marcar várias de uma vez-->
+      <br>
+      Data Entrega: <input type="date" name="dataEntrega">
+      <br>
+      Comentário<br>
+       <textarea name="mensagem" rows="10" cols="30"></textarea>  <!--rows significa quantidade de linhas e cols seria quantidade de colunas-->
+      <br>
+      <input type="submit"> <!--submit seria enviar-->
+      <a href="http://www.google.com"> link do cardápio></a> <!--a href seria colocar link-->
+      <a href="http://www.instagram.com"> link do instagram></a>
+      <br>
+      <img src="download.jpeg">
+
+    </form>
+      
+</body>
+</html>
